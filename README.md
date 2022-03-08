@@ -1,7 +1,7 @@
 # yarn/npm install
 # yarn/npm start
 
-# Technologies user:
+# Technologies used:
 # 1. Webpack
 # 2. React
 # 3. redux
