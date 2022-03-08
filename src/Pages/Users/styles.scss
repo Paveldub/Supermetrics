@@ -1,0 +1,13 @@
+.user-page-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 30%;
+    }
+
+    &__right {
+        width: 65%;
+    }
+}
