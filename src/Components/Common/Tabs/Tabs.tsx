@@ -44,10 +44,10 @@ export const Tab = (props) => {
         style={visibleTab === item.id ? {} : { display: 'none' }}
       >
         {item.created_time.map((elem, index) => (
-          <p>
+          <div key={`${item}_${index}`}>
             <span>{moment(elem).format('MMMM Do, YYYY h:mm:ss')}</span>
             <p>{item.message[index]}</p>
-          </p>
+          </div>
         ))}
       </div>
     )
